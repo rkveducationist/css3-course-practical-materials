@@ -1,0 +1,56 @@
+.box {
+    width: 120px;
+    height: 80px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightskyblue;
+    line-height: 80px;
+}
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+
+.static {
+    position: static;
+}
+
+
+.relative {
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.parent {
+    position: relative;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}

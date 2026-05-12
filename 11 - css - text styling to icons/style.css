@@ -1,0 +1,73 @@
+
+
+.inter-heading {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+    /* font: bold 36px "Arial, Helvetica, sans-serif"; */
+}
+
+/* text styline */
+div {
+    width: 300px;
+    border: 1px solid #000;
+}
+
+/* heading style */
+.title {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* paragraph style */
+.paragraph {
+    color: #333;
+    text-align: justify;
+    line-height: 1.5em;
+    word-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraphIn {
+    color: #d00;
+}
+
+
+.boldText {
+    font-weight: 700;
+}
+
+.italicText {
+    font-style: italic;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+i {
+    font-size: 30px;
+    color: blue;
+    margin: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    font-size: 16px;
+}

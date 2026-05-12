@@ -1,0 +1,33 @@
+
+/* Element Selector */
+h1 {
+    color: red;
+}
+
+li {
+    color: blue;
+}
+
+/* Group Selector */
+p, li {
+    color: green;
+    font-size: 18px;
+}
+
+/* Class Selector */
+.paraHighlight {
+    color: red;
+}
+
+.boxCreation {
+    border: 1px solid red;
+}
+
+/* Id Selector */
+#listItem {
+    text-decoration: line-through;
+}
+
+#listBox {
+    background-color: lightskyblue;
+}

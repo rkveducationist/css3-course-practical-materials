@@ -1,0 +1,74 @@
+/* hover effect */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: lightblue;
+    color: black;
+}
+
+.btn:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+/* active state */
+.btn:active {
+    background-color: lightgreen;
+    color: black;
+}
+
+
+/* input focus */
+input {
+    border: 1px solid black;
+    background-color: lightgray;
+    color: black;
+}
+
+input:focus {
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+
+/* first letter */
+.text::first-letter {
+    font-size: 24px;
+    color: red;
+}
+
+.text::first-line {
+    color: blue;
+}
+
+/* before */
+.text::before {
+    content: "👉";
+}
+
+.text::after {
+    content: "👍";
+}
+
+/* box */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px;
+}
+
+.box1 {
+    opacity: 1;
+}
+
+.box2 {
+    opacity: 0.5;
+}
+
+.box3 {
+    opacity: 0.2;
+}

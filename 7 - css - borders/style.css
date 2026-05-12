@@ -1,0 +1,35 @@
+/* Color - Text Color */
+body {
+    background-color: lightblue;
+    /* background-image: url(sunset.jpg); */
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    color: red;
+}
+
+ul {
+    border: 2px solid black;
+    border-width: 4px;
+    border-style: double;
+    border-radius: 10px;
+    border-top: 3px solid red;
+
+}
+
+li {
+    color: #f4a;
+}
+
+button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}

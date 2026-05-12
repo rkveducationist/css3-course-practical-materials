@@ -1,0 +1,23 @@
+/* common box style */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px;
+}
+
+/* opacity levels */
+.box1 {
+    opacity: 1;
+}
+
+.box2 {
+    opacity: 0.5;
+}
+
+.box3 {
+    opacity: 0.2;
+}

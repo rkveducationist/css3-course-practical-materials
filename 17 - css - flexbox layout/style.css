@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: lightcoral;
+    margin: 10px;
+    line-height: 120px;
+    font-size: 20px;
+}

@@ -1,0 +1,22 @@
+p {
+    color: blue;
+}
+/* descendant selector */
+.container p {
+    color: rebeccapurple;
+}
+
+/* child selector */
+.container > p {
+    color: red;
+}
+
+/* general sibling */
+h3 ~ p {
+    color: crimson;
+}
+
+/* adjacent sibling */
+h3 + p {
+    color: green;
+}

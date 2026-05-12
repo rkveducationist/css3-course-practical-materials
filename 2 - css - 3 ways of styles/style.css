@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    background-color: lightcoral;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

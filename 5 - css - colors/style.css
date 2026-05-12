@@ -1,0 +1,22 @@
+/* Color - Text Color */
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    color: red;
+}
+
+li {
+    color: #f4a;
+}
+
+button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
